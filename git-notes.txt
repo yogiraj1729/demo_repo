@@ -1,0 +1,20 @@
+How to Push any changes to GitHub using GitBash
+
+GitBash commands
+	git clone https://link   --> To Clone the project from GitHub into Local Env
+	ls                       --> To Pring List of Files 
+	git status               --> Shows the Status regarding the files changes we do
+	git add -A               --> To Add the all files 
+	git add <file_name>      --> To add the file in staged area
+	git commit -m “a valid message ”   --> To Commit the changes into the Repository
+	git push origin main               --> To Push changes 
+	git pull                           --> To take the latest changes to your local system
+	
+	git branch        --> To List the number of branches
+	git checkout -b <new Branch Name> --> To switch from current branch and create new branch 
+	git checkout <branch Name> ---> To Switch to branch 
+	git config --global user.name "FIRST_NAME LAST_NAME"
+	git config --global user.email "MY_NAME@example.com"
+	git merge new_branc --> To Merger Branch
+	git commit --amend  --> When there is a situation when you forget to add some files to commit and want to undo any commit, it can be committed again using –amend
+	
